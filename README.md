@@ -1,7 +1,3 @@
-Sure! Here's a fun and friendly `README.md` for your **Fun Calculator**:
-
----
-
 # 🎉 Fun Calculator 🎉
 
 A quirky little Python program to add, subtract, multiply, and divide two numbers — like a total boss! 😎
