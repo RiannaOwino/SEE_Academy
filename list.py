@@ -23,5 +23,5 @@ my_list.extend(second_list)
 my_list.pop()
 my_list.sort
 
-# printing the final list
+# finding and printing '30' 
 print(my_list[3])
