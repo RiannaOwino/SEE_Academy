@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Enhanced HTML Form Elements</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                    <a href="/">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Contacts</a>
+            </nav>
+            <h1>enhanced html form elements</h1>
+            <p>a simple website showcasing html multimedia elements</p>
+        </header>
+
+        <!-- definition lists -->
+
+        <h2>` definitions lists</h2>
+        <dl>
+            <dt>strawberry shortcake</dt>
+            <dd>a true shortcake is essentially a tender, lightly sweet scone with a “short,” crumbly texture</dd>
+            <dt>red velvet cake</dt>
+            <dd>red velvet cake is a red colored layer cake with cream cheese or ermine icing</dd>
+            <dt>black forest cake</dt>
+            <dd>black forest gateau is a layer cake made out of cocoa powder, cherries, Kirsch, and whipped cream</dd>
+        </dl>
+
+        <!-- nested lists -->
+
+        <h2>` nested lists</h2>
+        <h3>anime sub-genres</h3>
+        <ol>
+            <li>slice of life
+                <ol type="a">
+                    <li>saiki k.</li>
+                    <li>nana</li>
+                    <li>sk8 infinity</li>
+                </ol>
+            <li>shonen/sporty
+                <ol type="a">
+                    <li>kuroko's basketball</li>
+                    <li>haikyuu</li>
+                </ol>
+            </li>
+        </ol>
+
+        <!-- media -->
+
+        <h2>` multimedia</h2>
+        <h3>images</h3>
+        <img width="200px" src="https://i.pinimg.com/736x/58/1b/62/581b62394ef12346714ad2b5a455d50e.jpg" alt="strawberry shortcake holding her pet>">
+        <h3>audio</h3>
+        <audio controls>
+            <source src="STUNNER - TEN.mp3" type="audio/mp3">
+             <p> aw man... your browser doesn't support this audio file. here's a<a href="https://open.spotify.com/track/63j1HWrXmSk1zK7IZYQepo?si=6c08bb37ce644838">link to the audio</a> instead.</p>
+        </audio>
+        <h3>video</h3>
+        <video src="jiheon_2.mp4" controls width="300px">
+            <p> oh no ! your browser doesn't support HTML video. here is a<a href="jiheon_2.mp4">link to the video</a> instead.</p>
+        </video>
+        <br><br>
+
+        <!-- tables -->
+
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>k-pop group</th>
+                    <th>company</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>BTS</td>
+                    <td>HYBE</td>
+                </tr>
+                <tr>
+                    <td>NCT</td>
+                    <td>SM</td>
+                </tr>
+                <tr>
+                    <td>BLACKPINK</td>
+                    <td>YG</td>
+                </tr>
+            </tbody>
+        </table>
+        <br><br>
+
+        <!-- forms -->
+        <h2>` forms</h2>
+
+        <form>
+            <label for="name">
+                what's your preferred name?
+            </label>
+            <input type="text" id="name" name="name" minlength="2">
+            <br><br>
+
+            <label for="age">
+                how old are you?
+            </label>
+            <input type="number" min="1" max="115" id="age" name="age" required>
+            <br><br>
+
+            <label for="email">
+                enter your email:
+            </label>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+
+            <label for="gender">
+                enter your gender:
+            </label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">female</label>
+
+            <input type="radio" id="nonbinary" name="gender" value="nonbinary">
+            <label for="nonbinary">nonbinary</label>
+
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">male</label>
+
+            <input type="radio" id="prefer not to say" name="gender" value="prefernottosay">
+            <label for="prefernottosay">prefer not to say</label>
+            <br><br>
+
+            <label for="favourite-colour">
+                what's your favourite colour?
+            </label>
+            <select id="favourite-colour" name="favourite-colour" required>
+                <option value="pink">pink</option>
+                <option value="purple">purple</option>
+                <option value="blue">blue</option>
+                <option value="neogreen">neo green</option>
+            </select>
+            <br><br>
+
+            <label for="suggestions">
+                any suggestions? :3
+            </label>
+            <br>
+        <textarea id="suggestions" name="suggestions" rows="3" cols="27" placeholder="just type anything~"></textarea>
+            <br>
+            <button type="submit">submit !!</button>
+            <br><br>
+
+        </form>
+
+        <footer>
+            find my stuff <a href="https://github.com/RiannaOwino">here</a>
+        </footer>
+    
+    </body>
+</html>
