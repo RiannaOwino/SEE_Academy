@@ -1,0 +1,20 @@
+div {
+    width: 90%;
+    max-width: 400px;
+    background-color: rgb(134, 95, 171);
+    border: 15px solid rgb(236, 131, 181);
+    padding: 50px;
+    margin: auto;
+}
+body {
+  display: flex;
+  justify-content: center; /* horizontal */
+  align-items: center;    /* vertical */
+  min-height: 100vh;      /* take full viewport height */
+  margin: 0;              /* remove default body margin */
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
