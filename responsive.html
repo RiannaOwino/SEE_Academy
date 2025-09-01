@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <title>Responsive Design Example</title>
+            <style>
+                body {
+                    font-size: 16px;
+                }
+                .container {
+                    width: 77%;
+                    margin: 0 auto;
+                    border: 2px solid white;
+                    padding: 20px;
+                }
+                img {
+                    max-width: 60%;
+                    height: auto;
+                    align-items: center;
+                }
+                @media (max-width: 600px) {
+                    body {
+                        font-size: 12px;
+                        background-color: rgb(95, 63, 125);
+                        color: rgb(214, 189, 236);
+                    }
+                }
+            </style>
+        </head>
+        <body>
+            <div class="container">
+                <h1>responsive web design</h1>
+                <p>this page illustrates the use of media queries to create responsive and fluid webpages</p>
+                <img src="https://i.pinimg.com/736x/73/b1/96/73b1962e04f2f052f736f921e11da140.jpg" width="600px" height="800px">
+            </div>
+        </body>
+

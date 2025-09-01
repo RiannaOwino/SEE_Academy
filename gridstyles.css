@@ -1,0 +1,35 @@
+.gridlayout {
+    display: grid;
+    grid-template-areas: 
+        "header header header"
+        "nav main aside"
+        "footer footer footer";
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 50px 2fr 50px;
+    height: 100vh;
+}
+header {
+    grid-area: header;
+    background-color: lightblue;
+    text-align: center;
+}
+nav {
+    grid-area: nav;
+    background-color: lightpink;
+    text-align: center;
+}
+main {
+    grid-area: main;
+    background-color: coral;
+    text-align: center;
+}
+aside {
+    grid-area: aside;
+    background-color: lightgreen;
+    text-align: center;
+}
+footer {
+    grid-area: footer;
+    background-color: rgb(189, 159, 185);
+    text-align: center;
+}
