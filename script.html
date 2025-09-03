@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <title>JavaScript</title>
+            <script src="script.js"></script>
+        </head>
+        <body>
+            <h1 id="title">hello, dom</h1>
+            <p id="query" class="highlight">demonstrating a query selector</p>
+            <script>
+
+                // // DOM (document object model)
+
+                // selecting elements by id
+
+                const title = document.getElementById("title");
+                console.log(title.textContent);
+
+                // creating new element - paragraph
+                const newpara = document.createElement("p");
+                newpara.textContent = "hello! this is a new paragraph created by the JS document object model"
+                console.log(newpara.textContent)
+
+                // using a query selector to select an element
+
+                const query = document.querySelector("#query");
+                console.log(query.textContent)
+
+
+            </script>
+        </body>
